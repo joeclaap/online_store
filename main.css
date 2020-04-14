@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar {
+    background: #fff;
+    opacity: .8;
+}
+
+.navbar-nav a{
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.carousel-item {
+    height: 85vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 10rem;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1.8rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #333;
+    padding: 0.8rem 2rem;
+    display: inline-block;
+    color: #fff;
+    margin-top: 1rem;
+}
